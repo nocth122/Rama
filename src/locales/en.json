@@ -1,0 +1,384 @@
+{
+  "toasts": {
+    "emailCopied": "Email copied to clipboard",
+    "settingsReset": "Settings reset to defaults"
+  },
+  "tooltips": {
+    "audioHint": "Tip: enable subtle UI sounds in Settings",
+    "dismiss": "Dismiss"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "logo": "FR",
+    "logoSub": "PORTFOLIO"
+  },
+  "menu": {
+    "tableOfContents": "Table of Contents",
+    "settings": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "music": "Music",
+    "visualEffects": "Visual Effects",
+    "interface": "Interface",
+    "performance": "Performance",
+    "close": "Close Menu",
+    "open": "Open Menu",
+    "backToTop": "Back to top"
+  },
+  "settings": {
+    "theme": {
+      "title": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "language": {
+      "title": "Language",
+      "en": "English",
+      "id": "Indonesian",
+      "zh": "Chinese"
+    },
+    "music": {
+      "title": "Music",
+      "enabled": "Enable Music",
+      "volume": "Volume",
+      "playlist": "Playlist",
+      "playlistOptions": {
+        "ambient": "Ambient",
+        "lofi": "Lo-Fi",
+        "electronic": "Electronic",
+        "none": "None"
+      },
+      "status": {
+        "playing": "Now playing",
+        "selected": "Selected",
+        "silence": "Silence",
+        "tap": "Tap to select"
+      }
+    },
+    "visualEffects": {
+      "title": "Visual Effects",
+      "particles": "Particles",
+      "animations": "Animations",
+      "blur": "Blur Effects",
+      "tilt": "3D Card Tilt",
+      "motionReduction": "Reduce Motion",
+      "cursorEffects": "Cursor Effects"
+    },
+    "audio": {
+      "title": "Audio Feedback",
+      "uiSounds": "UI Click Sounds",
+      "volume": "Sound Volume"
+    },
+    "ai": {
+      "title": "AI Assistant",
+      "description": "Chat with an AI assistant about this portfolio. Bring your own OpenAI API key — it is stored only in your browser.",
+      "apiKey": "OpenAI API Key",
+      "apiKeyHint": "Stored locally in your browser. Never sent anywhere except OpenAI.",
+      "model": "Model",
+      "personality": "Personality / System Prompt",
+      "personalityHint": "Customize how the assistant talks about Fakhul and this site.",
+      "temperature": "Creativity"
+    },
+    "interface": {
+      "title": "Interface",
+      "compact": "Compact",
+      "comfortable": "Comfortable",
+      "largeText": "Large Text"
+    },
+    "performance": {
+      "title": "Performance",
+      "full": "Full Quality",
+      "batterySaver": "Battery Saver",
+      "lowGpu": "Low GPU",
+      "reduced": "Reduced"
+    },
+    "reset": "Reset to Defaults",
+    "saved": "Settings saved"
+  },
+  "sections": {
+    "hero": {
+      "title": "Creative Developer",
+      "subtitle": "Frontend Architect & Motion Designer",
+      "cta": "View Projects",
+      "kicker": "[ DESIGN \u2022 TECHNOLOGY \u2022 INNOVATION ]",
+      "where": "Where",
+      "creativity": "Creativity",
+      "meetsTechnology": "Meets Technology",
+      "description": "Creating meaningful solutions and experiences with precision, innovation, and purpose.",
+      "viewProjects": "VIEW PROJECTS",
+      "getInTouch": "Get in touch"
+    },
+    "about": {
+      "title": "Blueprint",
+      "subtitle": "About Me",
+      "sectionLabel": "About",
+      "firstName": "Fakhul",
+      "lastName": "Rohman",
+      "role": "Web Dev | Editing | Quality Controll",
+      "bio": "Lulusann SMK Jurusan Aktuntansi dengan pengalaman praktik kerja di bidang <em>Finishing & Teknologi</em>. Memiliki kemampuan dalam Teknologi, Design, dan perawatan dasar mesin. Terbiasa bekerja secara teliti, disiplin dan berorientasi pada hasil untuk memastikan semua sesuai dengan standar perusahaan.",
+      "bioHighlight": "Finishing & Technology",
+      "bioText": "SMK Accounting graduate with practical work experience in Finishing & Technology. Skilled in Technology, Design, and basic machine maintenance. Accustomed to working meticulously, with discipline and result-oriented focus to ensure everything meets company standards.",
+      "location": "Depok, Jawa Barat",
+      "experience": "2+ Years",
+      "trait": "Adaptability & Flexibility",
+      "tabs": {
+        "story": "Story",
+        "experience": "Experience",
+        "skills": "Skills"
+      },
+      "story": {
+        "title": "From Accounting to Technology",
+        "p1": "My journey started from vocational school (SMK) majoring in Accounting, but during school I discovered a strong interest in the world of technology and web development. Curiosity about how websites and applications work pushed me to learn independently beyond the curriculum.",
+        "p2": "Work experience at ION Network as a network and CCTV technician taught me about technology infrastructure and problem-solving. Meanwhile at A&W Restaurant, I learned about discipline, teamwork, and the importance of quality control in every job. Both experiences shaped my attention to detail and quality standards.",
+        "p3": "Now I focus on building meaningful web experiences, combining technical abilities with creative vision. Based in Depok, West Java, I continue to develop skills in React, TypeScript, and other modern frontend & backend technologies."
+      },
+      "experienceTimeline": {
+        "entry1": {
+          "company": "ION Network",
+          "period": "2025 — 2026 ( 7Months )",
+          "role": "Technical Network & CCTV",
+          "description": "Computer network and CCTV specialist with installation, configuration, troubleshooting, maintenance, and system optimization skills to ensure network stability and security."
+        },
+        "entry2": {
+          "company": "Restaurant A&W",
+          "period": "2025 ( 3Months )",
+          "role": "Staff Kitchen",
+          "description": "Skilled in kitchen operations, ingredient preparation, and food processing while prioritizing quality, hygiene, work safety, and teamwork."
+        }
+      },
+      "approach": {
+        "title": "How I work",
+        "items": {
+          "01": {
+            "title": "Architecture First",
+            "desc": "Every project starts with clean component architecture, typed interfaces, and a scalable design system before any visual work begins."
+          },
+          "02": {
+            "title": "Motion with Purpose",
+            "desc": "Animations aren't decoration — they guide attention, reveal content progressively, and create a sense of physical space in the interface."
+          },
+          "03": {
+            "title": "Obsessive Polish",
+            "desc": "The difference between good and extraordinary lives in the details: micro-interactions, easing curves, responsive spacing, and pixel precision."
+          }
+        }
+      },
+      "skills": {
+        "softTitle": "Soft Skills",
+        "hardTitle": "Hard Skills",
+        "soft": ["Communication", "Teamwork", "Adaptability", "Problem Solving", "Time Management", "Leadership"],
+        "hard": ["React/Next.js", "TypeScript", "Tailwind CSS", "Git/GitHub", "Figma", "Node.js"]
+      },
+      "cv": {
+        "button": "Download CV",
+        "atsWebDev": "CV ATS Web Dev",
+        "atsGeneral": "CV ATS General",
+        "designGeneral": "CV Design General"
+      }
+    },
+    "projects": {
+      "title": "Archive",
+      "subtitle": "Selected Works",
+      "viewProject": "View Project",
+      "viewAll": "View All Projects",
+      "selectedWorks": "SELECTED WORKS",
+      "projectArchive": "PROJECT ARCHIVE",
+      "subtitleDesc": "Curated selection of creative and technical projects",
+      "detail": {
+        "back": "Back",
+        "overview": "Overview",
+        "challenge": "Challenge",
+        "solution": "Solution",
+        "tech": "Tech Stack",
+        "category": "Category",
+        "id": "Project ID",
+        "features": "Key Features",
+        "highlights": "Highlights",
+        "gallery": "Gallery",
+        "role": "Role",
+        "year": "Year",
+        "status": "Status",
+        "viewLive": "Live Demo",
+        "viewRepo": "Source Code",
+        "viewCase": "Case Study",
+        "viewDemo": "Demo",
+        "nextProject": "Next Project",
+        "tabs": {
+          "overview": "Overview",
+          "insight": "Insight",
+          "gallery": "Gallery"
+        },
+        "swipeHint": "Swipe"
+      }
+    },
+    "contact": {
+      "title": "Uplink",
+      "subtitle": "Get in Touch",
+      "sectionLabel": "Contact",
+      "heading": "Let's start a",
+      "headingItalic": "conversation",
+      "description": "Have a project, opportunity, or collaboration in mind? Feel free to get in touch and let's create something meaningful together.",
+      "locationLabel": "Location",
+      "locationValue": "Jawa Barat, Indonesia",
+      "emailLabel": "Email",
+      "github": "GitHub",
+      "githubHover": "View my repositories",
+      "linkedin": "LinkedIn",
+      "linkedinHover": "Let's connect",
+      "or": "Or",
+      "assistantBridge": "Prefer to chat? Ask the AI assistant",
+      "connectTitle": "Connect",
+      "verified": "Verified",
+      "form": {
+        "nameLabel": "Your name",
+        "namePlaceholder": "Fakhul Rohman",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "Fakhulrohman2@gmail.com",
+        "messageLabel": "Your message",
+        "messagePlaceholder": "Tell me about your project...",
+        "submit": "SEND MESSAGE"
+      },
+      "sending": {
+        "title": "Sending message",
+        "initiating": "Initiating transmission...",
+        "establishing": "Establishing secure connection...",
+        "encrypting": "Encrypting message payload...",
+        "validating": "Validating email integrity...",
+        "routing": "Routing via jkt relay node...",
+        "success": "Message delivered successfully \u2713",
+        "error": "ERROR: Transmission failed. Retrying...",
+        "processing": "Processing..."
+      },
+      "success": {
+        "title": "Message sent!",
+        "description": "Thank you for reaching out. I'll get back to you within 24 hours.",
+        "sendAnother": "Send another"
+      },
+      "error": {
+        "title": "Transmission failed",
+        "description": "Something went wrong while sending your message. Please try again.",
+        "retry": "Try Again",
+        "backToForm": "Back to form",
+        "logsTitle": "Diagnostic log"
+      },
+      "charCount": "{count}/{max}"
+    }
+  },
+  "common": {
+    "loading": "Initializing...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "close": "Close",
+    "open": "Open",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "readMore": "Read More",
+    "showLess": "Show Less",
+    "scrollDown": "Scroll Down",
+    "startProject": "START A PROJECT",
+    "readyToCollaborate": "Ready to collaborate?",
+    "letsCreate": "Let's create",
+    "somethingExtraordinary": "something extraordinary.",
+    "copyright": "\u00a9 2025 \u2014 Designed with precision",
+    "location": "DEPOK, JAWA BARAT",
+    "role": "WEB_DEVELOPER // 2026",
+    "techStack": "React + Vite + Lenis",
+    "live": "Live",
+    "backToTop": "Back to top"
+  },
+  "footer": {
+    "readyToCollaborate": "Ready to collaborate?",
+    "letsCreate": "Let's create",
+    "somethingExtraordinary": "something extraordinary.",
+    "startProject": "START A PROJECT",
+    "copyright": "\u00a9 2025 \u2014 Designed with precision",
+    "backToTop": "Back to top",
+    "techStack": "React + Vite + Lenis",
+    "live": "Redy To Work"
+  },
+  "preloader": {
+    "logo": "Welcome To",
+    "logoSub": "My Portofolio",
+    "init": "Wait...",
+    "status1": "HEY YOU...",
+    "status2": "YES, YOU WHO'S WAITING...",
+    "status3": "THANKS FOR STOPPING BY...",
+    "status4": "I'M SETTING THINGS UP...",
+    "status5": "MAKING IT LOOK NEAT...",
+    "status6": "DON'T GO ANYWHERE...",
+    "status7": "ALL READY!",
+    "topLeft": "Depok, Jawa Barat",
+    "topRight": "My Profile",
+    "bottomLeft": "Fakhul Rohman Nurokhim",
+    "bottomRight": "Still Loading..."
+  },
+  "accessibility": {
+    "skipToContent": "Skip to content",
+    "mainNavigation": "List of contents",
+    "menuToggle": "Toggle navigation menu",
+    "settingsPanel": "Settings panel",
+    "languageSelector": "Language selector",
+    "themeSelector": "Theme selector",
+    "volumeSlider": "Volume slider",
+    "closePanel": "Close panel",
+    "openPanel": "Open panel",
+    "currentSection": "Current section",
+    "scrollProgress": "Scroll progress",
+    "musicToggle": "Toggle music",
+    "reduceMotion": "Reduce motion"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "sent": "Message sent!",
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email",
+      "minLength": "Must be at least {min} characters",
+      "maxLength": "Must be no more than {max} characters"
+    },
+    "errors": {
+      "network": "Network error. Please try again.",
+      "server": "Server error. Please try again later.",
+      "unknown": "An unexpected error occurred."
+    },
+    "empty": {
+      "noProjects": "No projects to display",
+      "noSkills": "No skills to display"
+    }
+  },
+  "errorPages": {
+    "notFound": {
+      "title": "Page not",
+      "titleItalic": "found",
+      "subtitle": "The page you are looking for has been moved, deleted, or possibly never existed.",
+      "button": "RETURN HOME",
+      "detailsTitle": "SYSTEM DIAGNOSTICS",
+      "requestPath": "Request Path",
+      "errorCode": "Error Code",
+      "explanation": "Possible Cause",
+      "explanationDetail": "No matching route was found in the portfolio application configuration. The URL may be mistyped, or the resource has been removed.",
+      "toggleLogs": "Toggle Diagnostic Log",
+      "logMessage": "System route resolution failed. Resource requested at target path does not match any static or dynamic assets."
+    },
+    "maintenance": {
+      "title": "Under",
+      "titleItalic": "maintenance",
+      "badge": "MAINTENANCE MODE",
+      "subtitle": "This section is currently undergoing maintenance.",
+      "description": "I am preparing the source code repository and live demonstration for this project. It will be available shortly! Please check back later.",
+      "button": "RETURN HOME"
+    }
+  }
+}

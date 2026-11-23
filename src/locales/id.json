@@ -1,0 +1,375 @@
+{
+  "toasts": {
+    "emailCopied": "Email disalin ke papan klip",
+    "settingsReset": "Pengaturan dikembalikan ke default"
+  },
+  "tooltips": {
+    "audioHint": "Tips: aktifkan suara antarmuka halus di Pengaturan",
+    "dismiss": "Tutup"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "projects": "Proyek",
+    "contact": "Kontak",
+    "logo": "FR",
+    "logoSub": "PORTOFOLIO"
+  },
+  "menu": {
+    "tableOfContents": "Daftar Isi",
+    "settings": "Pengaturan",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "music": "Musik",
+    "visualEffects": "Efek Visual",
+    "interface": "Antarmuka",
+    "performance": "Performa",
+    "close": "Tutup Menu",
+    "open": "Buka Menu",
+    "backToTop": "Kembali ke atas"
+  },
+  "settings": {
+    "theme": {
+      "title": "Tema",
+      "light": "Terang",
+      "dark": "Gelap",
+      "system": "Sistem"
+    },
+    "language": {
+      "title": "Bahasa",
+      "en": "Inggris",
+      "id": "Indonesia",
+      "zh": "Mandarin"
+    },
+    "music": {
+      "title": "Musik",
+      "enabled": "Aktifkan Musik",
+      "volume": "Volume",
+      "playlist": "Daftar Putar",
+      "playlistOptions": {
+        "ambient": "Ambient",
+        "lofi": "Lo-Fi",
+        "electronic": "Elektronik",
+        "none": "Tidak Ada"
+      },
+      "status": {
+        "playing": "Sedang diputar",
+        "selected": "Dipilih",
+        "silence": "Hening",
+        "tap": "Ketuk untuk pilih"
+      }
+    },
+    "visualEffects": {
+      "title": "Efek Visual",
+      "particles": "Partikel",
+      "animations": "Animasi",
+      "blur": "Efek Blur",
+      "tilt": "Kemiringan Kartu 3D",
+      "motionReduction": "Kurangi Gerakan",
+      "cursorEffects": "Efek Kursor"
+    },
+    "audio": {
+      "title": "Umpan Balik Audio",
+      "uiSounds": "Suara Klik Antarmuka",
+      "volume": "Volume Suara"
+    },
+    "ai": {
+      "title": "Asisten AI",
+      "description": "Mengobrol dengan asisten AI tentang portofolio ini. Gunakan kunci API OpenAI Anda sendiri — hanya disimpan di peramban Anda.",
+      "apiKey": "Kunci API OpenAI",
+      "apiKeyHint": "Disimpan secara lokal di peramban Anda. Tidak pernah dikirim ke mana pun selain OpenAI.",
+      "model": "Model",
+      "personality": "Kepribadian / Prompt Sistem",
+      "personalityHint": "Sesuaikan cara asisten berbicara tentang Fakhul dan situs ini.",
+      "temperature": "Kreativitas"
+    },
+    "interface": {
+      "title": "Antarmuka",
+      "compact": "Kompak",
+      "comfortable": "Nyaman",
+      "largeText": "Teks Besar"
+    },
+    "performance": {
+      "title": "Performa",
+      "full": "Kualitas Penuh",
+      "batterySaver": "Hemat Baterai",
+      "lowGpu": "GPU Rendah",
+      "reduced": "Dikurangi"
+    },
+    "reset": "Kembalikan ke Default",
+    "saved": "Pengaturan tersimpan"
+  },
+  "sections": {
+    "hero": {
+      "title": "Pengembang Kreatif",
+      "subtitle": "Arsitek Frontend & Desainer Motion",
+      "cta": "Lihat Proyek",
+      "kicker": "[ DESAIN \u2022 TEKNOLOGI \u2022 INOVASI ]",
+      "where": "Dimana",
+      "creativity": "Kreativitas",
+      "meetsTechnology": "Bertemu Teknologi",
+      "description": "Menciptakan solusi dan pengalaman bermakna dengan presisi, inovasi, dan tujuan.",
+      "viewProjects": "LIHAT PROYEK",
+      "getInTouch": "Hubungi saya"
+    },
+    "about": {
+      "title": "Cetak Biru",
+      "subtitle": "Tentang Saya",
+      "sectionLabel": "Tentang",
+      "firstName": "Fakhul",
+      "lastName": "Rohman",
+      "role": "Web Dev | Editing | Quality Controll",
+      "bio": "Lulusann SMK Jurusan Aktuntansi dengan pengalaman praktik kerja di bidang <em>Finishing & Teknologi</em>. Memiliki kemampuan dalam Teknologi, Design, dan perawatan dasar mesin. Terbiasa bekerja secara teliti, disiplin dan berorientasi pada hasil untuk memastikan semua sesuai dengan standar perusahaan.",
+      "bioHighlight": "Finishing & Teknologi",
+      "bioText": "Lulusann SMK Jurusan Aktuntansi dengan pengalaman praktik kerja di bidang Finishing & Teknologi. Memiliki kemampuan dalam Teknologi, Design, dan perawatan dasar mesin. Terbiasa bekerja secara teliti, disiplin dan berorientasi pada hasil untuk memastikan semua sesuai dengan standar perusahaan.",
+      "location": "Depok, Jawa Barat",
+      "experience": "2+ Tahun",
+      "trait": "Adaptasi & Fleksibilitas",
+      "tabs": {
+        "story": "Cerita",
+        "experience": "Pengalaman",
+        "skills": "Keahlian"
+      },
+      "story": {
+        "title": "Dari Akuntansi ke Teknologi",
+        "p1": "Perjalanan saya dimulai dari bangku SMK jurusan Akuntansi, namun selama masa sekolah saya menemukan ketertarikan yang kuat terhadap dunia teknologi dan pengembangan web. Rasa penasaran terhadap cara kerja website dan aplikasi mendorong saya untuk belajar secara mandiri di luar kurikulum.",
+        "p2": "Pengalaman kerja di ION Network sebagai teknisi jaringan dan CCTV mengajarkan saya tentang infrastruktur teknologi dan problem-solving. Sementara di A&W Restaurant, saya belajar tentang disiplin, kerja tim, dan pentingnya quality control dalam setiap pekerjaan. Kedua pengalaman ini membentuk perhatian saya terhadap detail dan standar kualitas.",
+        "p3": "Sekarang saya fokus membangun web experience yang bermakna, menggabungkan kemampuan teknis dengan visi kreatif. Berbasis di Depok, Jawa Barat, saya terus mengembangkan skill di React, TypeScript, dan teknologi frontend & backend modern lainnya."
+      },
+      "experienceTimeline": {
+        "entry1": {
+          "company": "ION Network",
+          "period": "2025 — 2026 ( 7Bln )",
+          "role": "Technical Network & CCTV",
+          "description": "Spesialis jaringan komputer dan CCTV dengan kemampuan instalasi, konfigurasi, troubleshooting, maintenance, serta optimasi sistem untuk memastikan stabilitas dan keamanan jaringan."
+        },
+        "entry2": {
+          "company": "Restaurant A&W",
+          "period": "2025 ( 3bln )",
+          "role": "Staff Kitchen",
+          "description": "Terampil dalam operasional dapur, persiapan bahan, dan pengolahan makanan dengan mengutamakan kualitas, kebersihan, keselamatan kerja, dan kerja sama tim."
+        }
+      },
+      "approach": {
+        "title": "Cara Saya Bekerja",
+        "items": {
+          "01": {
+            "title": "Arsitektur Terlebih Dahulu",
+            "desc": "Setiap proyek dimulai dengan arsitektur komponen yang bersih, interface yang diketik, dan sistem desain yang skalabel sebelum pekerjaan visual dimulai."
+          },
+          "02": {
+            "title": "Gerakan dengan Tujuan",
+            "desc": "Animasi bukan dekorasi — mereka memandu perhatian, mengungkapkan konten secara bertahap, dan menciptakan rasa ruang fisik dalam antarmuka."
+          },
+          "03": {
+            "title": "Polesan Obsesif",
+            "desc": "Perbedaan antara baik dan luar biasa terletak pada detail: mikro-interaksi, kurva easing, spacing responsif, dan presisi piksel."
+          }
+        }
+      },
+      "skills": {
+        "softTitle": "Soft Skills",
+        "hardTitle": "Hard Skills",
+        "soft": ["Komunikasi", "Kerja Tim", "Adaptabilitas", "Pemecahan Masalah", "Manajemen Waktu", "Kepemimpinan"],
+        "hard": ["React/Next.js", "TypeScript", "Tailwind CSS", "Git/GitHub", "Figma", "Node.js"]
+      },
+      "cv": {
+        "button": "Unduh CV",
+        "atsWebDev": "CV ATS Web Dev",
+        "atsGeneral": "CV ATS Umum",
+        "designGeneral": "CV Design Umum"
+      }
+    },
+    "projects": {
+      "title": "Arsip",
+      "subtitle": "Karya Terpilih",
+      "viewProject": "Lihat Proyek",
+      "viewAll": "Lihat Semua Proyek",
+      "selectedWorks": "KARYA TERPILIH",
+      "projectArchive": "ARSIP PROYEK",
+      "subtitleDesc": "Pilihan kurasi proyek kreatif dan teknis",
+      "detail": {
+        "back": "Kembali",
+        "overview": "Gambaran",
+        "challenge": "Tantangan",
+        "solution": "Solusi",
+        "tech": "Teknologi",
+        "category": "Kategori",
+        "id": "ID Proyek",
+        "features": "Fitur Utama",
+        "highlights": "Sorotan",
+        "gallery": "Galeri",
+        "role": "Peran",
+        "year": "Tahun",
+        "status": "Status",
+        "viewLive": "Demo Langsung",
+        "viewRepo": "Kode Sumber",
+        "viewCase": "Studi Kasus",
+        "viewDemo": "Demo",
+        "nextProject": "Proyek Berikutnya"
+      }
+    },
+    "contact": {
+      "title": "Uplink",
+      "subtitle": "Hubungi Saya",
+      "sectionLabel": "Kontak",
+      "heading": "Mari mulai",
+      "headingItalic": "percakapan",
+      "description": "Punya proyek, kesempatan, atau ide kolaborasi? Jangan ragu untuk menghubungi dan mari ciptakan sesuatu yang bermakna bersama.",
+      "locationLabel": "Lokasi",
+      "locationValue": "Jawa Barat, Indonesia",
+      "emailLabel": "Email",
+      "github": "GitHub",
+      "githubHover": "Lihat repositori saya",
+      "linkedin": "LinkedIn",
+      "linkedinHover": "Mari terhubung",
+      "or": "Atau",
+      "assistantBridge": "Lebih suka mengobrol? Tanya asisten AI",
+      "form": {
+        "nameLabel": "Nama Anda",
+        "namePlaceholder": "Fakhul Rohman",
+        "emailLabel": "Alamat email",
+        "emailPlaceholder": "Fakhulrohman2@gmail.com",
+        "messageLabel": "Pesan Anda",
+        "messagePlaceholder": "Ceritakan tentang proyek Anda...",
+        "submit": "KIRIM PESAN"
+      },
+      "sending": {
+        "title": "Mengirim pesan",
+        "initiating": "Memulai transmisi...",
+        "establishing": "Membuat koneksi aman...",
+        "encrypting": "Mengenkripsi muatan pesan...",
+        "validating": "Memvalidasi integritas email...",
+        "routing": "Merutekan via node relay jkt...",
+        "success": "Pesan berhasil terkirim \u2713",
+        "error": "ERROR: Transmisi gagal. Mencoba ulang...",
+        "processing": "Memproses..."
+      },
+      "success": {
+        "title": "Pesan terkirim!",
+        "description": "Terima kasih telah menghubungi. Saya akan membalas dalam 24 jam.",
+        "sendAnother": "Kirim lagi"
+      },
+      "error": {
+        "title": "Transmisi gagal",
+        "description": "Terjadi kesalahan saat mengirim pesan Anda. Silakan coba lagi.",
+        "retry": "Coba Lagi",
+        "backToForm": "Kembali ke formulir"
+      },
+      "charCount": "{count}/{max}"
+    }
+  },
+  "common": {
+    "loading": "Menginisialisasi...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "save": "Simpan",
+    "close": "Tutup",
+    "open": "Buka",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "readMore": "Baca Selengkapnya",
+    "showLess": "Tampilkan Lebih Sedikit",
+    "scrollDown": "Gulir ke Bawah",
+    "startProject": "MULAI PROYEK",
+    "readyToCollaborate": "Siap berkolaborasi?",
+    "letsCreate": "Mari ciptakan",
+    "somethingExtraordinary": "sesuatu yang luar biasa.",
+    "copyright": "\u00a9 2025 \u2014 Dirancang dengan presisi",
+    "location": "DEPOK, JAWA BARAT",
+    "role": "PENGEMBANG_WEB // 2026",
+    "techStack": "React + Vite + Lenis",
+    "live": "Aktif",
+    "backToTop": "Kembali ke atas"
+  },
+  "footer": {
+    "readyToCollaborate": "Siap berkolaborasi?",
+    "letsCreate": "Mari ciptakan",
+    "somethingExtraordinary": "sesuatu yang luar biasa.",
+    "startProject": "MULAI PROYEK",
+    "copyright": "\u00a9 2026 \u2014 Dirancang dengan presisi",
+    "backToTop": "Kembali ke atas",
+    "techStack": "React + Vite + Lenis + Node + Git",
+    "live": "Siap Untuk Bekerja"
+  },
+  "preloader": {
+    "logo": "Selamat Datang",
+    "logoSub": "Di Portofolio Saya",
+    "init": "Tunggu...",
+    "status1": "HALO KAMU...",
+    "status2": "IYA, KAMU YANG LAGI NUNGGU...",
+    "status3": "MAKASIH UDAH MAMPIR...",
+    "status4": "AKU LAGI NATA-NATA DULU...",
+    "status5": "BIAR KELIHATAN RAPI...",
+    "status6": "JANGAN KEMANA-MANA...",
+    "status7": "UDAH SIAP NIH!",
+    "topLeft": "Depok, Jawa Barat",
+    "topRight": "Profile Saya",
+    "bottomLeft": "Fakhul Rohman Nurokhim",
+    "bottomRight": "Masih Loading Yakkk..."
+  },
+  "accessibility": {
+    "skipToContent": "Lewati ke konten",
+    "mainNavigation": "Daftar Isi",
+    "menuToggle": "Buka/tutup menu navigasi",
+    "settingsPanel": "Panel pengaturan",
+    "languageSelector": "Pemilih bahasa",
+    "themeSelector": "Pemilih tema",
+    "volumeSlider": "Pengatur volume",
+    "closePanel": "Tutup panel",
+    "openPanel": "Buka panel",
+    "currentSection": "Bagian saat ini",
+    "scrollProgress": "Progres gulir",
+    "musicToggle": "Aktifkan/matikan musik",
+    "reduceMotion": "Kurangi gerakan"
+  },
+  "forms": {
+    "name": "Nama",
+    "email": "Email",
+    "message": "Pesan",
+    "submit": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "sent": "Pesan terkirim!",
+    "validation": {
+      "required": "Kolom ini wajib diisi",
+      "email": "Masukkan email yang valid",
+      "minLength": "Minimal {min} karakter",
+      "maxLength": "Maksimal {max} karakter"
+    },
+    "errors": {
+      "network": "Kesalahan jaringan. Silakan coba lagi.",
+      "server": "Kesalahan server. Silakan coba lagi nanti.",
+      "unknown": "Terjadi kesalahan yang tidak terduga."
+    },
+    "empty": {
+      "noProjects": "Tidak ada proyek untuk ditampilkan",
+      "noSkills": "Tidak ada keahlian untuk ditampilkan"
+    }
+  },
+  "errorPages": {
+    "notFound": {
+      "title": "Halaman tidak",
+      "titleItalic": "ditemukan",
+      "subtitle": "Halaman yang Anda cari telah dipindahkan, dihapus, atau mungkin tidak pernah ada.",
+      "button": "KEMBALI KE BERANDA",
+      "detailsTitle": "DIAGNOSTIK SISTEM",
+      "requestPath": "Path Permintaan",
+      "errorCode": "Kode Eror",
+      "explanation": "Kemungkinan Penyebab",
+      "explanationDetail": "Tidak ada rute yang cocok yang ditemukan dalam konfigurasi aplikasi portofolio ini. URL mungkin salah diketik, atau sumber daya telah dihapus.",
+      "toggleLogs": "Tampilkan Log Diagnostik",
+      "logMessage": "Resolusi rute sistem gagal. Sumber daya yang diminta pada path target tidak cocok dengan aset statis atau dinamis apa pun."
+    },
+    "maintenance": {
+      "title": "Dalam",
+      "titleItalic": "pemeliharaan",
+      "badge": "MODE PEMELIHARAAN",
+      "subtitle": "Bagian ini saat ini sedang dalam pemeliharaan.",
+      "description": "Saya sedang mempersiapkan repositori kode sumber dan demonstrasi langsung untuk proyek ini. Proyek akan segera tersedia! Silakan periksa kembali nanti.",
+      "button": "KEMBALI KE BERANDA"
+    }
+  }
+}

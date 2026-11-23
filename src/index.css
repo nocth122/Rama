@@ -1,0 +1,368 @@
+@import "tailwindcss";
+
+@theme {
+  /* Natural & Elegant Palette */
+  --color-sand: #FDFBF7;
+  --color-sand-alt: #F5F2EB;
+  --color-charcoal: #2A2A2A;
+  --color-charcoal-light: #4A4A4A;
+  --color-sage: #A3B19B;
+  --color-terracotta: #C68A7C;
+  --color-stone: #E5E2DA;
+  --color-surface: #FFFFFF;
+  --color-gold: #D4AF37;
+  
+  --font-display: 'Cormorant Garamond', serif;
+  --font-hud: 'DM Sans', sans-serif;
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+/* Custom CSS variables for additional visual customization */
+:root {
+  --cursor-size: 8px;
+  --cursor-blend: normal;
+  
+  color-scheme: light;
+  scroll-behavior: auto; /* Handled by Lenis */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-sand);
+  color: var(--color-charcoal);
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar for premium look */
+::-webkit-scrollbar {
+  width: 4px;
+  background: var(--color-sand);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-sand);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(42, 42, 42, 0.2);
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(42, 42, 42, 0.4);
+}
+
+/* High-tech utilities & Custom Glows */
+/* Premium Elegant Utilities */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(42, 42, 42, 0.05);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.03);
+}
+
+.glassmorphism-cyber {
+  background: rgba(245, 242, 235, 0.8);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(42, 42, 42, 0.03);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.02);
+}
+
+/* Lightweight variants for low/medium devices (no GPU-heavy blur) */
+.glassmorphism-lite {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(42, 42, 42, 0.08);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.04);
+}
+
+.glassmorphism-cyber-lite {
+  background: rgba(245, 242, 235, 0.92);
+  border: 1px solid rgba(42, 42, 42, 0.06);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.03);
+}
+
+/* Auto-switch to lite variants on low/medium capability devices */
+[data-capability="low"] .glassmorphism,
+[data-capability="medium"] .glassmorphism {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+[data-capability="low"] .glassmorphism-cyber,
+[data-capability="medium"] .glassmorphism-cyber {
+  background: rgba(245, 242, 235, 0.92);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.text-glow-sakura {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.text-glow-cyber {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.bg-glow-sakura {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.bg-glow-cyber {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+/* Custom cursor default styling */
+.custom-cursor-dot {
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  background-color: var(--color-charcoal);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: width 0.2s, height 0.2s, background-color 0.2s;
+}
+
+.custom-cursor-ring {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(42, 42, 42, 0.3);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9998;
+  transition: transform 0.15s cubic-bezier(0.25, 1, 0.5, 1), 
+              width 0.3s, 
+              height 0.3s, 
+              border-color 0.3s,
+              background-color 0.3s;
+}
+
+/* Hide default cursor on desktops */
+@media (min-width: 1024px) {
+  body, a, button, select, input, textarea {
+    cursor: none !important;
+  }
+}
+
+/* Hide custom cursor on touch devices */
+@media (pointer: coarse) {
+  .custom-cursor-dot,
+  .custom-cursor-ring {
+    display: none !important;
+  }
+}
+
+/* Natural Grid Background overlay */
+.cyber-grid {
+  background-image: radial-gradient(rgba(42, 42, 42, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-position: center center;
+}
+
+.cyber-grid-cyber {
+  background-image: radial-gradient(rgba(163, 177, 155, 0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-position: center center;
+}
+
+/* Perspective Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Text split animations helper */
+.char-animation {
+  display: inline-block;
+}
+
+/* Radial aurora glows */
+/* Soft ambient gradients */
+.bg-aurora-sakura {
+  background: radial-gradient(circle at 50% 0%, rgba(198, 138, 124, 0.05) 0%, rgba(253, 251, 247, 0) 60%);
+}
+
+.bg-aurora-cyber {
+  background: radial-gradient(circle at 100% 100%, rgba(163, 177, 155, 0.06) 0%, rgba(253, 251, 247, 0) 50%);
+}
+
+.bg-aurora-purple {
+  background: radial-gradient(circle at 0% 100%, rgba(229, 226, 218, 0.5) 0%, rgba(253, 251, 247, 0) 50%);
+}
+
+/* Section gradient divider */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(42, 42, 42, 0.1) 50%, transparent 100%);
+}
+
+/* Noise texture overlay for organic feel */
+.noise-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+  mix-blend-mode: multiply;
+}
+
+/* Marquee animation */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-scroll var(--marquee-duration, 30s) linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-duration: calc(var(--marquee-duration, 30s) * 3);
+}
+
+/* Fluid text sizing utility */
+.text-fluid-hero {
+  font-size: clamp(3rem, 10vw, 9rem);
+  line-height: 0.9;
+}
+
+.text-fluid-hero-sm {
+  font-size: clamp(2rem, 6vw, 5rem);
+  line-height: 1;
+}
+
+/* Gradient text utility - redefined for natural theme */
+.text-gradient-sakura {
+  color: var(--color-charcoal);
+}
+
+/* Dark theme overrides */
+[data-theme="dark"] {
+  --color-sand: #1a1a1a;
+  --color-sand-alt: #222222;
+  --color-charcoal: #F5F2EB;
+  --color-charcoal-light: #BFBFBF;
+  --color-surface: #2A2A2A;
+  --color-stone: #3a3a3a;
+  color-scheme: dark;
+}
+
+/* Dark theme: scrollbar */
+[data-theme="dark"] ::-webkit-scrollbar {
+  background: var(--color-sand);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: var(--color-sand);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Dark theme: glassmorphism */
+[data-theme="dark"] .glassmorphism {
+  background: rgba(40, 40, 40, 0.7);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .glassmorphism-cyber {
+  background: rgba(35, 35, 35, 0.8);
+  border-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark theme: noise overlay */
+[data-theme="dark"] .noise-overlay {
+  opacity: 0.02;
+  mix-blend-mode: screen;
+}
+
+/* Dark theme: aurora backgrounds with brighter opacity */
+[data-theme="dark"] .bg-aurora-sakura {
+  background: radial-gradient(circle at 50% 0%, rgba(198, 138, 124, 0.12) 0%, rgba(26, 26, 26, 0) 60%);
+}
+
+[data-theme="dark"] .bg-aurora-cyber {
+  background: radial-gradient(circle at 100% 100%, rgba(163, 177, 155, 0.14) 0%, rgba(26, 26, 26, 0) 50%);
+}
+
+[data-theme="dark"] .bg-aurora-purple {
+  background: radial-gradient(circle at 0% 100%, rgba(100, 100, 120, 0.3) 0%, rgba(26, 26, 26, 0) 50%);
+}
+
+/* Smooth transition for theme switching */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Scroll lock */
+body.scroll-locked {
+  overflow: hidden;
+}
+
+/* Hide scrollbar while keeping scroll functionality (horizontal pill rows, etc.) */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Focus visible utility */
+*:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
