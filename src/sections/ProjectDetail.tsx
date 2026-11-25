@@ -288,30 +288,6 @@ export const ProjectDetail = ({ project, onBack, nextProject, onNavigate }: Proj
                       <p className="text-sm md:text-base text-charcoal-light font-sans leading-relaxed">{project.description}</p>
                     </div>
 
-                    {/* Key features */}
-                    <div>
-                      <h2 className="text-xs font-hud text-charcoal uppercase tracking-widest mb-3 flex items-center gap-2">
-                        <Sparkles className="w-4 h-4 text-terracotta" />
-                        {t('sections.projects.detail.features')}
-                      </h2>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        {project.features.map((feature) => (
-                          <div key={feature} className="flex items-start gap-3 p-3.5 rounded-xl bg-surface border border-charcoal/5">
-                            <CheckCircle2 className="w-4 h-4 text-sage flex-shrink-0 mt-0.5" />
-                            <span className="text-sm text-charcoal font-sans leading-snug">{feature}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* Tech stack — looping icon marquee */}
-                    <div>
-                      <div className="flex items-center space-x-2 mb-3">
-                        <Code2 className="w-4 h-4 text-charcoal-light" />
-                        <h2 className="text-xs font-hud text-charcoal uppercase tracking-widest">{t('sections.projects.detail.tech')}</h2>
-                      </div>
-                      <TechMarquee items={project.tech} />
-                    </div>
                   </motion.div>
                 )}
 

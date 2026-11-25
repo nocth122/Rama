@@ -170,7 +170,7 @@ function AppContent() {
             {/* Marquee divider: Hero → About */}
             <div className="py-6 md:py-8">
               <Marquee 
-                items={['CREATIVE DEVELOPER', 'MOTION DESIGNER', 'FRONTEND ARCHITECT', 'UI ENGINEER', 'DEPOK BASED', 'AVAILABLE 2026']}
+                items={['Ikhlas', 'History', 'Filosofi', 'Ambisi', 'DEPOK BASED', 'AVAILABLE 2026']}
                 speed={35}
               />
             </div>

@@ -12,7 +12,7 @@
     "about": "Tentang",
     "projects": "Proyek",
     "contact": "Kontak",
-    "logo": "FR",
+    "logo": "R",
     "logoSub": "PORTOFOLIO"
   },
   "menu": {
@@ -102,12 +102,12 @@
   "sections": {
     "hero": {
       "title": "Pengembang Kreatif",
-      "subtitle": "Arsitek Frontend & Desainer Motion",
+      "subtitle": "Rama",
       "cta": "Lihat Proyek",
-      "kicker": "[ DESAIN \u2022 TEKNOLOGI \u2022 INOVASI ]",
+      "kicker": "[ FREEDOM \u2022 HISTORY \u2022 FILOSOFI ]",
       "where": "Dimana",
-      "creativity": "Kreativitas",
-      "meetsTechnology": "Bertemu Teknologi",
+      "creativity": "Ambisi",
+      "meetsTechnology": "Bertemu Keberanian",
       "description": "Menciptakan solusi dan pengalaman bermakna dengan presisi, inovasi, dan tujuan.",
       "viewProjects": "LIHAT PROYEK",
       "getInTouch": "Hubungi saya"
@@ -116,12 +116,12 @@
       "title": "Cetak Biru",
       "subtitle": "Tentang Saya",
       "sectionLabel": "Tentang",
-      "firstName": "Fakhul",
-      "lastName": "Rohman",
-      "role": "Web Dev | Editing | Quality Controll",
-      "bio": "Lulusann SMK Jurusan Aktuntansi dengan pengalaman praktik kerja di bidang <em>Finishing & Teknologi</em>. Memiliki kemampuan dalam Teknologi, Design, dan perawatan dasar mesin. Terbiasa bekerja secara teliti, disiplin dan berorientasi pada hasil untuk memastikan semua sesuai dengan standar perusahaan.",
-      "bioHighlight": "Finishing & Teknologi",
-      "bioText": "Lulusann SMK Jurusan Aktuntansi dengan pengalaman praktik kerja di bidang Finishing & Teknologi. Memiliki kemampuan dalam Teknologi, Design, dan perawatan dasar mesin. Terbiasa bekerja secara teliti, disiplin dan berorientasi pada hasil untuk memastikan semua sesuai dengan standar perusahaan.",
+      "firstName": "Rama",
+      "lastName": "Adiyansyah",
+      "role": " Role Marksman",
+      "bio": "Hai, Perkenalkan, nama saya Rama Adiyansyah. Saya merupakan seorang mahasiswa Program Studi Manajemen, Fakultas Ekonomi Dan Bisnis, di Universitas Pamulang, Tangerang Selatan, Saya adalah seseorang yang memiliki semangat untuk terus belajar, berkembang, dan mencoba hal-hal baru. Saya memiliki ketertarikan dalam dunia sejarah dan teknologi..",
+      "bioHighlight": "Finishing & Deposit",
+      "bioText": "Hai, Perkenalkan, nama saya Rama Adiyansyah. Saya merupakan seorang mahasiswa Program Studi Manajemen, Fakultas Ekonomi Dan Bisnis, di Universitas Pamulang, Tangerang Selatan, Saya adalah seseorang yang memiliki semangat untuk terus belajar, berkembang, dan mencoba hal-hal baru. Saya memiliki ketertarikan dalam dunia sejarah dan teknologi..",
       "location": "Depok, Jawa Barat",
       "experience": "2+ Tahun",
       "trait": "Adaptasi & Fleksibilitas",
@@ -131,21 +131,22 @@
         "skills": "Keahlian"
       },
       "story": {
-        "title": "Dari Akuntansi ke Teknologi",
-        "p1": "Perjalanan saya dimulai dari bangku SMK jurusan Akuntansi, namun selama masa sekolah saya menemukan ketertarikan yang kuat terhadap dunia teknologi dan pengembangan web. Rasa penasaran terhadap cara kerja website dan aplikasi mendorong saya untuk belajar secara mandiri di luar kurikulum.",
-        "p2": "Pengalaman kerja di ION Network sebagai teknisi jaringan dan CCTV mengajarkan saya tentang infrastruktur teknologi dan problem-solving. Sementara di A&W Restaurant, saya belajar tentang disiplin, kerja tim, dan pentingnya quality control dalam setiap pekerjaan. Kedua pengalaman ini membentuk perhatian saya terhadap detail dan standar kualitas.",
-        "p3": "Sekarang saya fokus membangun web experience yang bermakna, menggabungkan kemampuan teknis dengan visi kreatif. Berbasis di Depok, Jawa Barat, saya terus mengembangkan skill di React, TypeScript, dan teknologi frontend & backend modern lainnya."
+        "title": "Perjalanan Hidup",
+        "p1": "Perjalanan saya dimulai ketika duduk di bangku Sekolah Menengah Kejuruan (SMK) dengan mengambil jurusan Manajemen Perkantoran. Di masa tersebut, saya banyak mempelajari hal-hal baru, mulai dari administrasi, pengelolaan dokumen, hingga keterampilan dalam dunia perkantoran. Selain ilmu pengetahuan, saya juga belajar tentang kedisiplinan, tanggung jawab, dan bagaimana mempersiapkan diri untuk menghadapi dunia kerja.",
+        "p2": "Setelah menyelesaikan pendidikan SMK, saya memutuskan untuk terjun langsung ke dunia kerja. Dari pengalaman tersebut, saya mendapatkan banyak pelajaran berharga tentang arti kerja keras, kemandirian, tanggung jawab, serta menghadapi berbagai tantangan dalam kehidupan. Namun, seiring berjalannya waktu, saya menyadari bahwa masih banyak hal yang ingin saya pelajari dan kembangkan.", 
+        "p3": "Hingga akhirnya, saya mengambil keputusan besar untuk berhenti bekerja dan melanjutkan pendidikan ke jenjang perkuliahan. Keputusan ini saya ambil bukan karena menyerah, melainkan karena ingin membuka peluang yang lebih luas untuk masa depan. Saya percaya bahwa setiap pengalaman adalah proses pembelajaran, dan setiap keputusan merupakan langkah untuk menjadi pribadi yang lebih baik.
+"
       },
-      "experienceTimeline": {
+            "experienceTimeline": {
         "entry1": {
-          "company": "ION Network",
+          "company": " Shopee",
           "period": "2025 — 2026 ( 7Bln )",
-          "role": "Technical Network & CCTV",
-          "description": "Spesialis jaringan komputer dan CCTV dengan kemampuan instalasi, konfigurasi, troubleshooting, maintenance, serta optimasi sistem untuk memastikan stabilitas dan keamanan jaringan."
+          "role": "Driver Shopee Food",
+          "description": "Saya ingin menjadi bagian dari Shopee untuk mendapatkan pengalaman kerja yang lebih luas, meningkatkan kemampuan diri, dan memberikan kontribusi positif melalui pelayanan pengiriman yang aman, cepat, dan tepat waktu."
         },
         "entry2": {
-          "company": "Restaurant A&W",
-          "period": "2025 ( 3bln )",
+          "company": "Food & Beverage",
+          "period": "2025 ( 1Thn )",
           "role": "Staff Kitchen",
           "description": "Terampil dalam operasional dapur, persiapan bahan, dan pengolahan makanan dengan mengutamakan kualitas, kebersihan, keselamatan kerja, dan kerja sama tim."
         }
@@ -280,8 +281,8 @@
     "somethingExtraordinary": "sesuatu yang luar biasa.",
     "copyright": "\u00a9 2025 \u2014 Dirancang dengan presisi",
     "location": "DEPOK, JAWA BARAT",
-    "role": "PENGEMBANG_WEB // 2026",
-    "techStack": "React + Vite + Lenis",
+    "role": "jakarta // 2026",
+    "techStack": "Hidup Depo",
     "live": "Aktif",
     "backToTop": "Kembali ke atas"
   },
@@ -292,7 +293,7 @@
     "startProject": "MULAI PROYEK",
     "copyright": "\u00a9 2026 \u2014 Dirancang dengan presisi",
     "backToTop": "Kembali ke atas",
-    "techStack": "React + Vite + Lenis + Node + Git",
+    "techStack": "Lebih Biak kasih makan ternaknya",
     "live": "Siap Untuk Bekerja"
   },
   "preloader": {
@@ -308,7 +309,7 @@
     "status7": "UDAH SIAP NIH!",
     "topLeft": "Depok, Jawa Barat",
     "topRight": "Profile Saya",
-    "bottomLeft": "Fakhul Rohman Nurokhim",
+    "bottomLeft": "Rana Adiyansyah",
     "bottomRight": "Masih Loading Yakkk..."
   },
   "accessibility": {

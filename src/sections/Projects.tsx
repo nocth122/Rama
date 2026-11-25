@@ -249,36 +249,6 @@ export const Projects = ({ onSelectProject }: ProjectsProps) => {
             layout="featured"
             onClick={() => handleProjectClick(projectsData[0])}
           />
-
-          {/* Projects 2 & 3 - Two equal columns */}
-          <ProjectCard
-            project={projectsData[1]}
-            index={1}
-            layout="standard"
-            onClick={() => handleProjectClick(projectsData[1])}
-          />
-          <ProjectCard
-            project={projectsData[2]}
-            index={2}
-            layout="standard"
-            onClick={() => handleProjectClick(projectsData[2])}
-          />
-
-          {/* Project 4 - Full-width horizontal on desktop */}
-          <ProjectCard
-            project={projectsData[3]}
-            index={3}
-            layout="horizontal"
-            onClick={() => handleProjectClick(projectsData[3])}
-          />
-
-          {/* Project 5 - Full-width horizontal on desktop */}
-          <ProjectCard
-            project={projectsData[4]}
-            index={4}
-            layout="horizontal"
-            onClick={() => handleProjectClick(projectsData[4])}
-          />
         </div>
       </div>
     </Section>

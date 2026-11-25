@@ -69,18 +69,11 @@ const softSkills = [
   { label: 'Leadership', icon: Flag },
 ];
 
-const hardSkillGroups: { category: string; icon: LucideIcon; items: string[] }[] = [
-  { category: 'Frontend', icon: Code2, items: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS'] },
-  { category: 'Backend', icon: Server, items: ['Node.js', 'Express.js', 'REST API'] },
-  { category: 'Database', icon: Database, items: ['MongoDB'] },
-  { category: 'Tools', icon: Wrench, items: ['Git', 'GitHub', 'Vercel'] },
-];
-
 // Downloadable CV variants — drop the PDFs in /public/cv (see public/cv/README.md).
 const cvFiles: { key: string; file: string; icon: LucideIcon }[] = [
-  { key: 'atsWebDev', file: '/cv/cv-ats-web-dev.pdf', icon: FileBadge },
-  { key: 'atsGeneral', file: '/cv/cv-ats-umum.pdf', icon: FileText },
-  { key: 'designGeneral', file: '/cv/cv-design-umum.pdf', icon: Palette },
+  { key: 'atsWebDev', file: '/cv/rama.pdf', icon: FileBadge },
+  { key: 'atsGeneral', file: '/cv/rama.pdf', icon: FileText },
+  { key: 'designGeneral', file: '/cv/rama.pdf', icon: Palette },
 ];
 
 /**
@@ -88,45 +81,6 @@ const cvFiles: { key: string; file: string; icon: LucideIcon }[] = [
  * The icon has a soft, GPU-cheap hover animation (lift + gentle tilt) to feel
  * interactive without the cost of an always-running loop.
  */
-function HardSkillChip({ label, index }: { label: string; index: number }) {
-  const iconUrl = getTechIconUrl(label);
-  const [iconFailed, setIconFailed] = useState(false);
-  const showIcon = iconUrl && !iconFailed;
-
-  return (
-    <motion.span
-      initial={{ opacity: 0, y: 8 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.04, duration: 0.35, ease: premiumEase }}
-      whileHover={{ y: -2 }}
-      className="group/skill inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-charcoal/5 border border-charcoal/10 text-charcoal text-xs font-hud transition-colors duration-300 hover:border-terracotta/40 hover:bg-terracotta/10"
-    >
-      <motion.span
-        className="inline-flex"
-        whileHover={{ scale: 1.2, rotate: -8 }}
-        transition={{ type: 'spring', stiffness: 320, damping: 14 }}
-      >
-        {showIcon ? (
-          <img
-            src={iconUrl}
-            alt=""
-            aria-hidden="true"
-            width={15}
-            height={15}
-            loading="lazy"
-            decoding="async"
-            onError={() => setIconFailed(true)}
-            className="w-[15px] h-[15px] object-contain"
-          />
-        ) : (
-          <Code2 className="w-[15px] h-[15px] text-terracotta" />
-        )}
-      </motion.span>
-      {label}
-    </motion.span>
-  );
-}
 
 export const About = () => {
   const [activeTab, setActiveTab] = useState<TabType>('story');
@@ -192,9 +146,9 @@ export const About = () => {
   };
 
   const socialLinks = [
-    { icon: GithubIcon, href: 'https://github.com/lumakara', label: 'GitHub' },
-    { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/fakhul-rohman-nurokhim-b24276411', label: 'LinkedIn' },
-    { icon: InstagramIcon, href: '#', label: 'Instagram' },
+    { icon: GithubIcon, href: 'https://www.instagram.com/ramacipittt?lqvp=dmJlMTYzNXFxaTM4', label: 'GitHub' },
+    { icon: LinkedinIcon, href: 'https://www.instagram.com/ramacipittt?lqvp=dmJlMTYzNXFxaTM4', label: 'LinkedIn' },
+    { icon: InstagramIcon, href: 'https://www.instagram.com/ramacipittt?lqvp=dmJlMTYzNXFxaTM4', label: 'Instagram' },
   ];
 
   const metaPills = [
@@ -204,10 +158,10 @@ export const About = () => {
   ];
 
   const quickStats = [
-    { value: '2+', label: 'Years' },
-    { value: '7+', label: 'Projects' },
-    { value: '15+', label: 'Tools' },
-    { value: '3', label: 'Languages' },
+    { value: '19+', label: 'Years' },
+    { value: '1+', label: 'Expierence' },
+    { value: '⭐999+', label: 'Imo' },
+    { value: '2', label: 'Languages' },
   ];
 
   return (
