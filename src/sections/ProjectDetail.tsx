@@ -4,8 +4,6 @@ import {
   ArrowLeft,
   Target,
   Lightbulb,
-  Code2,
-  CheckCircle2,
   ExternalLink,
   FileText,
   PlayCircle,
@@ -24,7 +22,6 @@ import {
 import { useLanguage } from '../contexts/LanguageContext';
 import { premiumEase } from '../components/Section';
 import { LocalImage } from '../components/LocalImage';
-import { TechMarquee } from '../components/TechMarquee';
 import { getStatusMeta, getProjectCover, type Project, type ProjectLink } from '../data/projects';
 
 /** A "screen" entry is treated as a real image when it looks like a path/URL. */

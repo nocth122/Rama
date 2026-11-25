@@ -12,7 +12,7 @@
     "about": "Tentang",
     "projects": "Proyek",
     "contact": "Kontak",
-    "logo": "FR",
+    "logo": "R",
     "logoSub": "PORTOFOLIO"
   },
   "menu": {
@@ -176,9 +176,9 @@
       },
       "cv": {
         "button": "Unduh CV",
-        "atsWebDev": "CV ATS Web Dev",
-        "atsGeneral": "CV ATS Umum",
-        "designGeneral": "CV Design Umum"
+        "atsWebDev": "CV Mahasiswa",
+        "atsGeneral": "CV Mahasiswa",
+        "designGeneral": "CV Mahasiswa"
       }
     },
     "projects": {

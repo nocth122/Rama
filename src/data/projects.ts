@@ -67,6 +67,12 @@ export const projectsData: Project[] = [
       'Saat masih kecil, Napoleon harus meninggalkan kampung halamannya di Pulau Corsica untuk menempuh pendidikan di Prancis. Ia mengalami kesulitan beradaptasi karena perbedaan bahasa, budaya, dan lingkungan sosial.',
     solution:
       'Napoleon berusaha menyesuaikan diri dengan lingkungan barunya, tekun belajar, serta mengembangkan kemampuan dalam bidang matematika dan strategi militer..',
+    tech: ['Kepemimpinan', 'Strategi Militer', 'Sejarah Prancis'],
+    features: [
+      'Pendidikan militer di Brienne dan akademi militer Paris',
+      'Kenaikan pangkat setelah merebut kembali Toulon (1793)',
+      'Kudeta 18 Brumaire dan menjadi Konsul Prancis',
+    ],
     metrics: [
       { label: 'Years', value: '51' },
       { label: 'HomeLand', value: 'Corsica' },

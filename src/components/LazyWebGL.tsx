@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState, Component, type ReactNode } from 'react';
 import { useDeviceCapability } from '../lib/deviceCapability';
 import { usePreferences } from '../contexts/PreferencesContext';
 
@@ -13,6 +13,25 @@ const CSSGradientFallback = () => (
     }}
   />
 );
+
+/**
+ * Devices/browsers without a usable WebGL context (old Android WebView, GPU
+ * blocklist, headless) throw from three.js while mounting the Canvas. Without
+ * a boundary that error escapes as an uncaught exception, so we swallow it and
+ * keep the CSS aurora instead.
+ */
+class WebGLBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
+  state = { failed: false };
+  static getDerivedStateFromError() {
+    return { failed: true };
+  }
+  componentDidCatch() {
+    /* silent: the CSS fallback is already on screen */
+  }
+  render() {
+    return this.state.failed ? <CSSGradientFallback /> : this.props.children;
+  }
+}
 
 /**
  * Decides whether (and when) to mount the heavy Three.js background.
@@ -64,8 +83,10 @@ export const LazyWebGL = () => {
   }
 
   return (
-    <Suspense fallback={<CSSGradientFallback />}>
-      <WebGLBackground />
-    </Suspense>
+    <WebGLBoundary>
+      <Suspense fallback={<CSSGradientFallback />}>
+        <WebGLBackground />
+      </Suspense>
+    </WebGLBoundary>
   );
 };

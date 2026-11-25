@@ -81,6 +81,33 @@ const cvFiles: { key: string; file: string; icon: LucideIcon }[] = [
  * The icon has a soft, GPU-cheap hover animation (lift + gentle tilt) to feel
  * interactive without the cost of an always-running loop.
  */
+const HardSkillChip = ({ label, index }: { label: string; index: number }) => {
+  const iconUrl = getTechIconUrl(label);
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: index * 0.03, duration: 0.3, ease: premiumEase }}
+      whileHover={{ y: -2 }}
+      className="flex min-w-0 items-center gap-1.5 px-2.5 py-1 bg-sage/15 border border-sage/25 text-charcoal text-[11px] sm:text-xs font-hud rounded-full leading-tight transition-colors duration-300 hover:bg-sage/25"
+    >
+      {iconUrl ? (
+        <img src={iconUrl} alt="" loading="lazy" className="w-3 h-3 shrink-0" />
+      ) : (
+        <span className="w-1 h-1 rounded-full bg-sage shrink-0" />
+      )}
+      <span>{label}</span>
+    </motion.div>
+  );
+};
+
+const hardSkillGroups: { category: string; icon: LucideIcon; items: string[] }[] = [
+  { category: 'Frontend', icon: Code2, items: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'] },
+  { category: 'Backend', icon: Server, items: ['Node.js', 'Express', 'JWT'] },
+  { category: 'Database', icon: Database, items: ['PostgreSQL', 'Supabase', 'MongoDB'] },
+  { category: 'Tools', icon: Wrench, items: ['Git', 'GitHub', 'Vercel', 'Figma'] },
+];
 
 export const About = () => {
   const [activeTab, setActiveTab] = useState<TabType>('story');

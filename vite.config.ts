@@ -5,6 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // Bind to all interfaces so the dev server is reachable from the phone's
+  // browser (localhost inside PRoot is not the phone's localhost).
+  server: { host: true, port: 5173, strictPort: true },
   build: {
     rolldownOptions: {
       output: {
